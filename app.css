@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(65, 150, 65);
+    padding: 1em;
+    width: 500px;
+    margin-top: 2em;
+}
+
+.card {
+    border: 1px  solid rgb(65, 150, 65);
+    margin: 0.8em 0;
+    cursor: pointer;
+    object-fit: fill;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 4px;
+    filter: drop-shadow(0 0 0.1rem rgb(65, 150, 65));
+    background-color: #fff;
+    transition: 1ms all;
+}
+
+.card:hover,
+.card:focus {
+    filter: drop-shadow(0 0 0.3rem rgb(65, 150, 65));
+}
+
+.cardp {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 400px;
+}
+
+.textBtn {
+    margin: 0.2em 0;
+}
+
+.textBtn textarea {
+    border: 1px  solid rgb(65, 150, 65);
+    padding: 0.5em;
+    border-radius: 4px;
+    filter: drop-shadow(0 0 0.1rem rgb(65, 150, 65));
+    background-color: #fff;
+    transition: 1ms all;
+}
+
+.textBtn textarea:hover,
+.textBtn textarea:focus {
+    filter: drop-shadow(0 0 0.3rem rgb(65, 150, 65));
+}
+
+.textBtn button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+    color: rgb(65, 150, 65);
+    background-color: #fff;
+    border: 1px solid rgb(65, 150, 65);
+    font-size: 1rem;
+    filter: drop-shadow(0 0 0.1rem rgb(65, 150, 65));
+    transition: 1ms all;
+}
+
+.textBtn button:hover {
+    border: 2px solid rgb(65, 150, 65);
+    filter: drop-shadow(0 0 0.3rem rgb(65, 150, 65));
+}
